@@ -1,0 +1,15 @@
+
+create database testbase2;
+use testbase2;
+show tables;
+select * from buyerdetails;
+select * from cartitems;
+select * from purchasehistory;
+
+
+
+create database sellermicroservices;
+use sellermicroservices;
+select * from seller_details;
+select * from items_details;
+select * from transactionhistory;
